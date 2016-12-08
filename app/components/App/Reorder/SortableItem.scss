@@ -1,0 +1,12 @@
+.sortable-item{
+  border: 1px solid blue;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  width: 250px;
+
+  &.dragging{
+    opacity: .10;
+    background-color: grey;
+  }
+}

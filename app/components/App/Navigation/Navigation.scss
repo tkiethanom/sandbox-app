@@ -1,0 +1,17 @@
+@import '../../../sass/variables.scss';
+
+.navigation{
+  padding: 15px;
+  background-image: linear-gradient(
+      to right,
+      $primary-color, $alternate-color
+  );
+
+  .brand{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
